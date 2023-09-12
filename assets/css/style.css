@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+
+
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: black;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+
+.logo {
+    margin-left: 30px;
+}
+
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.navbar a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.navbar a:hover {
+    background: #565656;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header {
+    height: 60vh !important;
+    background: url('/assets/img/fondo.jpeg') no-repeat center;
+    background-size: cover;
+}
+
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 50px;
+
+
+}
+
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #ffffff;
+    color: #fff;
+    text-decoration: none;
+    background: #0e099c;
+
+
+}
+
+
+.btn:hover {
+    background: none;
+
+
+}
+
+
+.btn-home {
+    display: flex;
+
+
+}
+
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.box-container .box {
+    height: 15rem;
+    width: 20rem;
+    background: black;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0.3 5rem rgb(0, 0, 5);
+    margin: 2rem;
+}
+
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+
+}
+
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #01a2ff;
+}
+
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+
+
+}
+
+
+.about {
+    background: black;
+    height: 500px;
+}
+
+
+.price {
+    background: url(/assets/img/tigre-sura.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contact {
+    height: 400px;
+    padding-top: 20px;
+    background: black;
+    padding-bottom: 0;
+
+
+}
+.Dformulario{
+    display: flex;
+    gap: 20px;
+    background-color: azure;
+}
+.posicionF{
+    position: absolute;
+    bottom: 15px;
+    top: 70px;
+    right: 0;
+}
+.PosicionDos{
+    position: absolute;
+    left: 1000px;
+}
+.posicionTres{
+    position: absolute;
+    right: 600px;
+}
+
+
+.formulario {
+
+    border: solid black;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: azure;
+}
+
+
+.input {
+    background-color: azure;
+    width: 185px;
+    padding: 3px 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+
+.enviar {
+    display: flex;
+    justify-content: center;
+
+}
+
+.enviar input {
+    background-color: azure;
+    border: solid blue;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+.formulario label {
+
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.noticias {
+    color: white;
+    margin: 22px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: black;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+.informes {
+    margin: 10px;
+    display: flex;
+    
+}
+
+.informes article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 15px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.informes article img {
+    border-radius: 5px;
+    margin-right: -10px;
+    width: 280px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+@media (max-width: 412px) {
+    .head {
+        display: flex;
+        justify-content: first baseline;
+    }
+
+    .navbar {
+        display: inline;
+
+
+
+    }
+
+
+
+
+}
